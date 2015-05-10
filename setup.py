@@ -14,7 +14,7 @@ setup(
     description='A python utility library containing functions for managing tile services, such as converting between z/x/y to geojson.',
     long_description=open('README.md').read(),
     download_url="https://github.com/tilejet/tilejet-util/zipball/master",
-    py_modules=["tilejet-util"],
+    py_modules=["tilejetutil"],
     classifiers = [
         'Development Status :: 1 - Beta',
         'Intended Audience :: Developers',
