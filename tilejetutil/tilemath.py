@@ -114,7 +114,7 @@ def tms_to_quadkey(x,y,z):
         if ((y & mask) != 0):
             digit += 1
             digit += 1
-        quadKey.push(digit);
+        quadKey.append(digit);
 
     return ''.join(quadKey);
 
