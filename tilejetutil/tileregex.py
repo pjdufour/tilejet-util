@@ -1,6 +1,4 @@
-
-
-
+import re
 
 def match_pattern_url(pattern, url):
     match = None
